@@ -1,0 +1,349 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    height: 1000px;
+    font-family: 'Carlito', sans-serif;
+}
+
+.blur {
+    filter: brightness(70%) blur(3px);
+}
+
+.header {
+    height: auto;
+    padding: 2px;
+    /* margin: 0; */
+    /* border: 5px solid red; */
+    background-color: white;
+    box-shadow: 10px -10px 20px;
+
+}
+
+.h1col {
+    color: #00A5EC;
+}
+
+.headh1 {
+    margin-left: 8%;
+    font-size: 40px;
+}
+
+.newtask {
+    margin-top: 40px;
+}
+
+.plusbutton {
+    width: 50px;
+    height: 50px;
+    background-color: #00A5EC;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    right: 15%;
+}
+
+.plus {
+    font-size: 35px;
+    margin-top: -1px;
+    padding: 6px 6px 0px 14px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 100;
+}
+
+.wordlabel {
+    float: right;
+    margin-top: -5px;
+    position: relative;
+    right: 14%;
+}
+
+.plusa {
+    text-decoration: none;
+    color: #797474;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+.container {
+    width: 70%;
+    position: relative;
+    left: 100px;
+    top: 120px;
+    margin: auto;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    height: 290px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    margin: 12px 12px 12px 12px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 20px #C2C2C2;
+}
+
+.line {
+    border: 1px solid #EDEDED;
+}
+
+.box h2 {
+    color: #00A5EC;
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+}
+
+.chbox {
+    width: 22px;
+    height: 22px;
+    margin: 15px 10px 0px 20px;
+    position: relative;
+    top: 2%;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #C2C2C2;
+}
+
+.addnewtask {
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    border: 1px solid#EDEDED;
+    border-radius: 10px;
+    background-color: white;
+    color: #797474
+}
+
+#taskinp {
+    width: 90%;
+    height: 30px;
+    /* padding: 30px 0px 0px 0px; */
+    box-sizing: border-box;
+    margin: 15px;
+    background-color: #EDEDED;
+    border: #797474;
+    border-radius: 5px;
+}
+
+.closeicon {
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+    font-size: medium;
+    padding-left: 10px;
+}
+
+#taskinpbutton {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: #00A5EC;
+    color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back {
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.wl2 {
+    margin-right: 200px;
+    margin-top: -15px;
+}
+
+.pb2 {
+    margin-top: -10px;
+}
+
+
+#box1 {
+    position: relative;
+    top: 70px;
+    left: 35%;
+    width: 400px;
+    box-shadow: 0px 0px 20px #C2C2C2;
+}
+
+#box1 h2 {
+    text-align: center;
+}
+
+
+/*For Mobile View*/
+
+@media only screen and (max-width:600px) {
+    .header {
+        height: auto;
+        padding: 2px;
+        /* margin: 0; */
+        /* border: 5px solid red; */
+        background-color: white;
+        box-shadow: 10px -10px 20px;
+
+    }
+
+    .h1col {
+        color: #00A5EC;
+    }
+
+    .headh1 {
+        margin-left: 2%;
+        font-size: 25px;
+    }
+
+    .newtask {
+        margin-top: 20px;
+    }
+
+    .plusbutton {
+        width: 40px;
+        height: 40px;
+        background-color: #00A5EC;
+        border-radius: 50%;
+        float: right;
+        position: relative;
+        right: 45%;
+    }
+
+    .plus {
+        font-size: 30px;
+        padding: 4px 5px 0px 11px;
+        box-sizing: border-box;
+        color: white;
+        font-weight: 100;
+    }
+
+    .wordlabel {
+        display: none;
+    }
+
+    .plusa {
+        text-decoration: none;
+        color: #797474;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        left: 0%;
+        top: 2%;
+    }
+
+    .box {
+        width: 400px;
+        height: 350px;
+        background-color: white;
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+    }
+
+    .box:hover {
+        box-shadow: 0px 0px 20px #C2C2C2;
+    }
+
+    .line {
+        border: 1px solid #EDEDED;
+    }
+
+    .box h2 {
+        color: #00A5EC;
+        font-size: 18px;
+        padding: 10px 10px 10px 20px;
+    }
+
+    .chbox {
+        width: 22px;
+        height: 22px;
+        margin: 15px 10px 0px 20px;
+        position: relative;
+        top: 2%;
+    }
+
+    .strike {
+        text-decoration: line-through;
+        color: #C2C2C2;
+    }
+
+    /*index2 Page*/
+
+    .blur {
+        filter: brightness(70%) blur(3px);
+    }
+
+    .addnewtask {
+        /* margin: 0 auto; */
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        border: 1px solid#EDEDED;
+        border-radius: 10px;
+        background-color: white;
+        color: #797474
+    }
+
+    #taskinp {
+        width: 90%;
+        height: 40px;
+        /* padding: 30px 0px 0px 0px; */
+        box-sizing: border-box;
+        margin: 15px;
+        background-color: #EDEDED;
+        border: #797474;
+        border-radius: 5px;
+    }
+
+    .closeicon {
+        float: right;
+        margin-right: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .head {
+        font-size: medium;
+        padding-left: 10px;
+    }
+
+    #taskinpbutton {
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+        width: 120px;
+        height: 40px;
+        background-color: #00A5EC;
+        color: white;
+        border: 1px solid #EDEDED;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+}

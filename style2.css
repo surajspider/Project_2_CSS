@@ -1,0 +1,55 @@
+@media only screen and (max-width:600px) {
+    .header2 {
+        height: auto;
+        padding: 2px;
+        /* margin: 0; */
+        /* border: 5px solid red; */
+        background-color: white;
+        box-shadow: 10px -10px 20px;
+
+    }
+
+    .h1col {
+        color: #00A5EC;
+    }
+
+    .headh1 {
+        margin-left: 2%;
+        font-size: 25px;
+    }
+
+    .plusbutton {
+        width: 40px;
+        height: 40px;
+        background-color: #00A5EC;
+        border-radius: 50%;
+        float: right;
+        position: relative;
+        right: 45%;
+    }
+
+    .back {
+        float: left;
+        margin-left: 5px;
+        margin-top: 0px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    #box1 {
+        margin: auto;
+        position: relative;
+        top: 70px;
+        left: 1%;
+        width: 300px;
+        box-shadow: 0px 0px 20px #C2C2C2;
+    }
+
+    #box1 h2 {
+        text-align: center;
+    }
+
+    .blur {
+        filter: brightness(70%) blur(3px);
+    }
+}

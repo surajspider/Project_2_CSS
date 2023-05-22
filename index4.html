@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-Mobile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://kit.fontawesome.com/94f3367f70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="blur">
+        <div class="header">
+            <h1 class="headh1">Tasks <span class="h1col">List</span></h1>
+        </div>
+        <div class="newtask">
+            <span class="back"><a style="text-decoration: none; color: black;"href="./index.html"><i class="fa-solid fa-circle-arrow-left fa-2xl"></i> Back</a></span>
+            <div class="wordlabel wl2">
+                <a class="plusa" href="index2.html"><h2>Add New Task</h2></a>
+            </div>
+            <div class="plusbutton pb2">
+                <a class="plusa" href="index2.html"><h3 class="plus">+</h3></a>
+            </div>
+        </div>
+        <div class="box1container">
+            <div class="box" id="box1" >
+                <h2>Trip to Paris</h2>
+                <hr class="line">
+                <input type="checkbox" class="chbox" id="church" name="church" checked disabled>
+                <label for="church" class="strike">Visit Church</label><br>
+                <input type="checkbox" class="chbox" id="shopping" name="shopping">
+                <label for="shopping">Shopping</label>
+            </div>
+        </div>
+    </div>
+    <div class="addnewtask">
+        <form action="./index.html" method="get">
+            <h2 class="head">Add New Item  <span class="closeicon">
+                <a href="./index3.html"><i class="fa fa-thin fa-xmark fa-beat"></i></a></span>
+            </h2>
+           
+            <hr class="line">
+            <input type="text" id="taskinp" placeholder="Visit Famous Places">
+            <input type="submit" id="taskinpbutton" value="+ Add New Item">
+        </form>
+         
+    </div>
+</body>
+</html>
